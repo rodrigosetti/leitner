@@ -1,0 +1,23 @@
+cabal-version:      2.4
+name:               leitner
+version:            0.1.0.0
+author:             Rodrigo Setti
+maintainer:         rodrigosetti@gmail.com
+
+executable leitner
+  main-is:          Main.hs
+  other-modules:
+    Question
+    Views
+
+  build-depends:
+    , base           ^>=4.16.3.0
+    , blaze-html
+    , blaze-markup
+    , scotty
+    , sqlite-simple
+    , text
+    , wai-extra
+
+  hs-source-dirs:   src
+  default-language: Haskell2010
