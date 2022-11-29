@@ -1,0 +1,6 @@
+CREATE TABLE questions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    box INTEGER DEFAULT 1
+);
